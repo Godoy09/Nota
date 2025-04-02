@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <!-- Integrante 1 -->
+        <LinearLayout
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgIntegrante1"
+                android:layout_width="30dp"
+                android:layout_height="37dp"
+                android:background="@drawable/borda_redonda"
+                android:scaleType="centerCrop"
+                android:src="@drawable/foto1" />
+
+            <TextView
+                android:id="@+id/nomeIntegrante1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Guilherme Godoy Padilha"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- Integrante 2 -->
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgIntegrante2"
+                android:layout_width="36dp"
+                android:layout_height="41dp"
+                android:background="@drawable/borda_redonda"
+                android:scaleType="centerCrop"
+                android:src="@drawable/foto2" />
+
+            <TextView
+                android:id="@+id/nomeIntegrante2"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Arthur de Souza Frazão"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgIntegrante3"
+                android:layout_width="38dp"
+                android:layout_height="42dp"
+                android:background="@drawable/borda_redonda"
+                android:scaleType="centerCrop"
+                android:src="@drawable/foto3" />
+
+            <TextView
+                android:id="@+id/nomeIntegrante3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Oscar Almeida de Oliveira"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnVoltarMain"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:text="Voltar" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

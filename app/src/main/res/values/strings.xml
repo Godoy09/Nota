@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Nota</string>
+    <string name="resultado_texto">O resultado é: %s</string>
+
+</resources>
